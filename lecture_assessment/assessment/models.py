@@ -7,7 +7,7 @@ class Bosco(models.Model):
 class AbdulQadir(models.Model):
     pass
 
-class Ubaidullah(models.Models):
+class Ubaidullah(models.Model):
     pass 
 
 class Issah(models.Model):
