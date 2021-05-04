@@ -1,0 +1,4 @@
+mqi-lect-env
+*.sqlite3
+*.pyc
+*.db
