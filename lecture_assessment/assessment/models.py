@@ -1,26 +1,9 @@
 from django.db import models
 
 # Create your models here.
-class Bosco(models.Model):
-    name = models.CharField(max_length=256)
 
-class AbdulQadir(models.Model):
-    pass
-
-class Ubaidullah(models.Model):
-    pass 
-
-class Issah(models.Model):
-    pass 
-
-class Subburu(models.Model):
-    pass 
-
-class Ihsan(models.Model):
-    pass 
-
-class Ziblim(models.Model):
-    pass
-
-class AbdulGhaffar(models.Model):
-    pass
+class AssessmentResponse(models.Model):
+    student_class = models.CharField(max_length=50)
+    facilitator = models.CharField(max_length=75)
+    course = models.CharField(max_length=50)
+    
